@@ -1,24 +1,12 @@
-# README
+# Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### RESTful Routes API
+- index - all the data
+  1. url goes to the routes
+  2. route matches and calls the controller and method
+  3. controller method makes a request to the db via Active Record
+  4. rendering db info as json (json is the language of data on the internet)
+- show - one datum
+- create - add data
+- update - modify data
+- destroy - delete data
